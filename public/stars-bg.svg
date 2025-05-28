@@ -1,0 +1,33 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="starGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <g fill="url(#starGradient)">
+    <circle cx="100" cy="150" r="1"/>
+    <circle cx="200" cy="50" r="0.8"/>
+    <circle cx="300" cy="200" r="1.2"/>
+    <circle cx="400" cy="100" r="0.7"/>
+    <circle cx="500" cy="250" r="1"/>
+    <circle cx="600" cy="150" r="0.9"/>
+    <circle cx="700" cy="50" r="1.1"/>
+    <circle cx="750" cy="350" r="0.8"/>
+    <circle cx="650" cy="450" r="1"/>
+    <circle cx="550" cy="550" r="0.7"/>
+    <circle cx="450" cy="650" r="1.2"/>
+    <circle cx="350" cy="750" r="0.9"/>
+    <circle cx="250" cy="650" r="1"/>
+    <circle cx="150" cy="550" r="0.8"/>
+    <circle cx="50" cy="450" r="1.1"/>
+    <circle cx="125" cy="375" r="0.7"/>
+    <circle cx="225" cy="275" r="1"/>
+    <circle cx="325" cy="325" r="0.9"/>
+    <circle cx="425" cy="425" r="0.8"/>
+    <circle cx="525" cy="375" r="1.1"/>
+    <circle cx="625" cy="275" r="0.7"/>
+    <circle cx="725" cy="175" r="1"/>
+  </g>
+</svg>
