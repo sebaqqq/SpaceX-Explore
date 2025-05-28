@@ -47,7 +47,6 @@ const PastLaunchesPage = () => {
     setPage(prev => prev + 1);
   };
 
-  // Animation variants for grid
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

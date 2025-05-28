@@ -5,12 +5,10 @@ import UpcomingLaunchesPage from './pages/UpcomingLaunchesPage';
 import PastLaunchesPage from './pages/PastLaunchesPage';
 import LatestLaunchPage from './pages/LatestLaunchPage';
 import NotFoundPage from './pages/NotFoundPage';
-import Stars from './components/Stars';
 
 function App() {
   return (
     <>
-      <Stars />
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
